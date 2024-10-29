@@ -1,0 +1,118 @@
+/* .introcontainer {
+  background: transparent;
+  color: white;
+  
+}
+.intro {
+  max-width: 45vw;
+}
+.hello {
+  margin: 10px auto;
+  font-size: 20px;
+}
+.name {
+  margin: 6px auto;
+}
+.name span {
+  color: goldenrod;
+}
+.work {
+  margin: 10px auto;
+}
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+} */
+.mySelf {
+  font-size: 17px;
+  margin: 15px auto;
+  line-height: 1.5;
+}
+button img {
+  height: 20px;
+  width: 20px;
+  color: white;
+  background: white;
+  border-radius: 50%;
+  border: none;
+  margin: auto 10px;
+  /* animation: rotate infinite 10s linear; */
+}
+
+button span {
+  color: rgb(26, 24, 24);
+  background: transparent;
+  font-size: 10px;
+  padding-right: 10px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+
+  height: 35px;
+  border-radius: 20px;
+}
+.myImage img {
+  height: 300px;
+  animation: world infinite 20s linear;
+  
+}
+@keyframes world {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#small {
+  margin-left: 20px;
+
+  color: brown;
+  font-size: 24px;
+  text-decoration: aqua;
+}
+.introcontainer {
+  /* height: calc(100vh-4rem); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  max-width: 75rem;
+  padding: 20px;
+  margin: 1rem auto;
+  margin-top: 80px;
+}
+.intro {
+  margin-top: -250px;
+  width: 400px;
+}
+.myImage {
+  margin-top: 40px;
+}
+/* PHONE SCREEN SETUP */
+
+@media (max-width: 768px) {
+  .introcontainer {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .introcontainer {
+    max-width: 100%;
+    margin-left: 50px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .introcontainer {
+    max-width: 100%;
+    flex-direction: column-reverse;
+    /* margin-left: 150px; */
+  }
+}
